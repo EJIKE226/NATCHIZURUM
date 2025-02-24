@@ -1,300 +1,78 @@
-body{
-   height: 100vh;
-   background-size: cover;
-   background-repeat: no-repeat;
-}
-.trans{
-    height: 100vh;
-    width: 100%;
+body {
+    font-family: Arial, sans-serif;
     background-color: black;
-    padding-bottom: 80px;
 }
-a{
-    text-transform: capitalize;
-    color: aliceblue;
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
+.hero {
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
 }
-a:hover{
-    border-bottom: red solid 2px;
-    cursor: pointer;
+.hero img {
+    max-width: 100%;
+    height: auto;
 }
-h3{
-    color: aliceblue;
-    margin-left: 80px;
-}
-p{
-    color: aliceblue;
-    font-size: 20px;
-}
-h2{
-    color: aliceblue;
-    font-size: 50px;
-}
-button{
-    background-color: transparent;
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: white;
-    border-radius: 50px;
-    font-size: 15px;
-    padding: 10px;
-    border: solid white 2px;
+    text-shadow: 3px 4px 6px black;
 }
-.main{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    background-color: blue;
+
+.content-section {
+    padding: 40px 0;
     
 }
-.right{
-    display: flex;
-    gap: 1cm;    
-    margin-right: 80px;
+.image{
+border-radius: 50%;
+box-shadow: 4px 4px 16px navy;
 }
-.container{
-    display: flex;
-   justify-content: space-around;
-   text-align: center;
-   align-items: center;
-   margin: 40px;
-   height: 100vh;
+.navbar-brand span{
+    color: red;
 }
-.container .img {
-    height: 100vh;
-    width: 600px;ws
-}
-.container .img img{
-    height: 700px;
-    width: 600px;
-   text-align: center;
-   align-items: center;
-}
-#aboutus{
-    margin-top: 50px;
-    background-color: brown;
-    text-align: center;
-    font-size: 50px;
-    
-}
-#aboutus .h1{
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: aqua;
-    
-}
-.about{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    margin-left: 50px;
-}
-.yellow{
-    background-color: lightyellow;
-    text-align: center;
-    height: 200ps;
-    width: 50%;
-
-}
-.yellow h1{
-    color: black;
-    text-align: center;
-    font-size: 50px;
-}
- .blue h3{
-   font-size: 50px;
-   margin-right: 50px;
-}
-.yellow p{
-    color: black;
-    text-align: center;
-    font-size: 30px;
-}
-img{
-    height:20pc ;
-    width: 50%;
-}
-button{
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.482);
-    border: none;
-    width: 200px;
-    color: darkblue;
-    font-weight: bolder;
-}
-input{
-    border-radius: 30px;
-    background-color: transparent;
-    font-size: 20px;
-    margin-bottom: 10px;
-    border: 2px black solid;
-    color: white;
-    padding: 8px;
-}
-.pr{
-    border: 2px solid white;
- }
- .pr:hover{
-    background-color:blue;
- }
- .pr a{
-    border: none;
- }
-
-.white{
-background-color: white;
-display: flex;
-color: black;
-gap: 50px;
-justify-content: space-around;
-padding: 60px;
-}
-.black{
-background-color: black;
-height: 60vh;
-color: white;
-text-align: center;
-justify-content: center;
-align-items: center;
-display: flex;
-flex-direction: column;
-width: 100%;
-
-}
-.white p{
-    color: black;
-}
-.left1{
-    text-align: center;
-    background-color: burlywood;
-    padding-bottom: 20px;
-}
-.right2{
-    text-align: center;
-    background-color: burlywood;
-    padding-bottom: 20px;
-}
-.right2 img{
-    width: 100%;
-}
-.left1 img{
-    width: 100%;
-}
-.btn{
-    background-color: transparent;
-    border: solid;
-}
-
-
-
-.kite{
-    background-color: black;
-    display: flex;
-    color: white;
-    width: 100%;
-    height: 50vh;
-    gap: 80px;
-}
-.kite .p{
-   background-color: gold;
-   border: none;
-   border-radius: 0;
-    
-}
-.bdt{
-    background-color: gray;
-    border: none;
-    border-radius: 0;
-}
-.box5{
-    display: flex;
-width: 200px;
-}
-.copyright{
-    color:  white;
-}
-footer{
-background-color: black;
-text-align: center;
-padding: 20px;
-align-items: center;
-}
-.lop{
-    background: linear-gradient(purple,lightblue);
-color: black;
-justify-content: center;
-justify-items: center;
-    padding-bottom: 50px;
-}
-.lop input{
-    width: 100%;
-    border-radius: 0;
-}
-.lop .message{
-    padding-bottom: 120px;
-}
-.lop label{
-text-transform: capitalize;
-}
-.lop h1{
-text-transform: capitalize;
-font-size: 30px;
+.navbar-brand {
+text-shadow: 4px 4px 15px navy;
 font-weight: bolder;
 }
-.lop button{
-    width: 100%;
-    color: white;
-    background-color: blue;
-    border-radius: 0;
-  
-    
-}
-.hiy{
-    color: black;
-    display: flex;
-}
-.hiy .our{
-background-color: white;
-border: 4px solid lightblue;
-
-}
-.main78 h3{
-    color: black;
- 
-}
-.main78{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-
- 
-}
-.main78 p{
-    color: black;
- 
-}
-.shape1 {
-    color: black;
-    display: flex;
+.hero {
+    padding: 60px 0;
     text-align: center;
-    align-items: center;
-   justify-content: center; 
+    background-color: #f8f9fa;
 }
-.shape{
-    background-color: cyan;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    
+.content-section {
+    padding: 40px 0;
 }
-.net{
-    justify-content: center;
-    flex-direction: column;
+.service-card {
+    margin-bottom: 20px;
+}
+.service-container {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+    text-align: center;
 }
 
+
+.service-container:hover {
+    background-color: orange;
+}
+
+.service-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.service-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 16px;
+}
